@@ -1,0 +1,11 @@
+HAI
+
+I HAS A var ITZ 12
+
+VISIBLE var
+
+MAEK var NUMBAR  	BTW 12.0
+
+VISIBLE var
+
+KTHXBYE

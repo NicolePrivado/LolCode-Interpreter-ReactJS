@@ -1,0 +1,25 @@
+.baseStyles {
+    color: var(--color-brand-default);
+    font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 125%;
+    height: 100%;
+    margin: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.textArea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: small;
+}
+
+.textArea:focus {
+    border: 2px solid var(--color-brand-default);
+    outline: none;
+}

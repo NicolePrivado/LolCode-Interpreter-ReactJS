@@ -1,0 +1,23 @@
+.header {
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.textEditor {
+    float: left;
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+    float: right;
+}
+
+.tables {
+    display: flex;
+}
+
+.table {
+    flex: 50%;
+}

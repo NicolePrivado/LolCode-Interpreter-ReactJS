@@ -1,0 +1,59 @@
+
+.containter {
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.baseStyles {
+    color: var(--color-brand-default);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 125%;
+    text-align: center;
+}
+
+.inputFile {    
+    padding: 6px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+
+
+
+
+.textArea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    padding: 10px;
+    font-size: small;
+}
+
+.textArea:focus {
+    border: 2px solid var(--color-brand-default);
+    outline: none;
+}
+
+.buttonBaseStyles {
+    margin-top: 10px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background: #ddd;
+	border-radius: 10px;
+	transition: all 0.3s;
+    padding: 10px 20px;
+    width: 100%;
+    background: var(--color-brand-default);
+	color: var(--color-white);
+}
+
+.buttonBaseStyles:hover {
+	filter: brightness(0.8);
+}
+
+.buttonBaseStyles > *:not(:first-child) {
+	margin-left: 10px;
+}
